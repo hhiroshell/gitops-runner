@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
-ENV HUB_VERSION 2.6.0
-ENV HELM_VERSION 2.10.0
+ENV HUB_VERSION 2.7.0
+ENV HELM_VERSION 2.12.1
 
 # env subsets
 RUN apt-get update && \
